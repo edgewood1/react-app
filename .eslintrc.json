@@ -4,14 +4,17 @@
     "prettier",
     "plugin:react/recommended"
   ],
+  
+    "parser": "@typescript-eslint/parser"
+  ,
   "plugins": [
- 
+    "@typescript-eslint"
   ],
   "parserOptions": {
     "ecmaVersion": 2022,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
+      "tsx": true
     }
   },
   "env": {
